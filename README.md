@@ -17,6 +17,13 @@ The system utilizes **Machine Learning (Random Forest)** to learn from historica
     * *Fastest* (Time optimized)
     * *Balanced* (Weighted score of price and time)
 
+### 🛠️ Tech Stack
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.68%2B-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Numpy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
 ##  Project Structure
 ```
 
@@ -100,7 +107,7 @@ python src/main.py
 
 *Server will start at: `http://127.0.0.1:8001*`
 
-**Step 4: Generate Evaluation Report (Optional)**
+**Step 4: Generate Evaluation Report**
 Creates visualization plots in the `models/` folder.
 
 ```
@@ -108,7 +115,7 @@ python src/generate_plots.py
 
 ```
 
-## 🔌 API Usage
+##  API Usage
 
 The system provides interactive documentation at `http://127.0.0.1:8001/docs`.
 
@@ -153,10 +160,16 @@ The system provides interactive documentation at `http://127.0.0.1:8001/docs`.
 
 ```
 
+###  Interactive API Documentation
+The system comes with a built-in Swagger UI to test endpoints directly from the browser.
+<img width="1920" height="1035" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/8f07f41b-a0c6-4688-9ad7-57497eb0c98c" />
+
+
 ##  Evaluation Metrics
 
 * **ETA Model:** Evaluated using Mean Absolute Error (MAE) ~2.5 mins.
 * **Demand Model:** Evaluated using RMSE on surge multiplier predictions.
 * **Visuals:** Check `models/eta_accuracy_plot.png` for actual vs. predicted performance.
+<img width="1428" height="646" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/9d425b33-6643-4170-aab5-8cf0c00b5598" />
 
 
