@@ -3,12 +3,12 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-0.68%2B-green) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Model-orange)
 
-## 📌 Overview
+## Overview
 This project is an AI-powered backend system designed for a ride-hailing platform. It intelligently matches vehicles to ride requests by predicting Estimated Time of Arrival (ETA), forecasting demand surges, and calculating dynamic pricing in real-time.
 
 The system utilizes **Machine Learning (Random Forest)** to learn from historical trip data and **FastAPI** to serve recommendations via a RESTful API.
 
-## 🚀 Key Features
+##  Key Features
 * **Synthetic Data Generation:** Simulates realistic urban traffic patterns, rush hours, and demand spikes.
 * **ETA Prediction:** Uses ML to estimate trip duration based on distance, time of day, and traffic conditions.
 * **Dynamic Pricing Engine:** Calculates surge multipliers (1.0x - 3.0x) based on predicted demand in specific locations.
@@ -17,7 +17,7 @@ The system utilizes **Machine Learning (Random Forest)** to learn from historica
     * *Fastest* (Time optimized)
     * *Balanced* (Weighted score of price and time)
 
-## 📂 Project Structure
+##  Project Structure
 ```
 
 RideShareAI/
@@ -39,12 +39,12 @@ RideShareAI/
 
 ```
 
-## 🛠️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/RideShareAI.git](https://github.com/YOUR_USERNAME/RideShareAI.git)
+git clone [https://github.com/Apekshapai280/RideShareAI.git](https://github.com/Apekshapai280/RideShareAI.git)
 cd RideShareAI
 
 ```
@@ -153,7 +153,7 @@ The system provides interactive documentation at `http://127.0.0.1:8001/docs`.
 
 ```
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 * **ETA Model:** Evaluated using Mean Absolute Error (MAE) ~2.5 mins.
 * **Demand Model:** Evaluated using RMSE on surge multiplier predictions.
